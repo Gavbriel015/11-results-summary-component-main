@@ -14,56 +14,59 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="h-screen flex flex-col sm:flex-row">
-  
-      <div class="bg-gradient-to-b from-color1 to-color2 basis-[40%] rounded-b-[30px] flex flex-col justify-evenly items-center px-10">
-        <h2 class="text-gray-200 font-bold text-xl">Your Result</h2>
-        <div class="bg-gradient-to-b from-circle1 to-circle2 rounded-full flex flex-col justify-center items-center py-5 px-10">
-          <h2 class="text-[60px] font-bold text-white">76</h2>
-          <p class="text-gray-200">of 100</p>
-        </div>
-        <h2 class="text-white text-2xl font-bold">Great</h2>
-        <p class="text-gray-200 text-center font-semibold px-5 pb-6">You scored higher than 65% of the people who have taken these tests.</p>
+<body class="sm:scale-110 sm:overflow-hidden sm:h-screen sm:flex sm:justify-center sm:items-center">
+  <div class="h-screen flex flex-col sm:flex-row sm:h-[500px] sm:w-[650px] sm:shadow-2xl sm:rounded-l-[30px]" >
+    <div class="bg-gradient-to-b from-color1 to-color2 sm:basis-[50%] basis-[40%] rounded-b-[30px] sm:rounded-[30px] flex flex-col justify-evenly items-center px-10">
+      <h2 class="text-gray-200 font-bold text-xl">Your Result</h2>
+      <div class="bg-gradient-to-b from-circle1 to-circle2 rounded-full flex flex-col justify-center items-center py-5 px-10">
+        <h2 class="text-[60px] font-bold text-white">76</h2>
+        <p class="text-gray-200">of 100</p>
       </div>
-      <div class="basis-[60%] px-7 flex flex-col gap-8">
-        <h1 class="text-[#303B59] font-bold mt-8">Summary</h1>
-        <div class="flex flex-col gap-5">
-          <div class="flex bg-Lightred p-4 justify-between rounded-xl">
-            <div class="flex gap-2">
-              <img src="./assets/images/icon-reaction.svg" alt="">
-              <h2 class="text-tLightred font-bold opacity-70">Reaction</h2>
-            </div>
-            <p class="text-[#303B59]"><span class=" font-bold">80</span> / 100</p>
+      <h2 class="text-white text-2xl font-bold">Great</h2>
+      <p class="text-gray-200 text-center font-semibold px-5 pb-6">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="basis-[60%] sm:basis-[50%] px-7 flex flex-col gap-8">
+      <h1 class="text-[#303B59] font-bold mt-8 text-xl">Summary</h1>
+      <div class="flex flex-col gap-5">
+        <div class="flex bg-Lightred p-4 justify-between rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-reaction.svg" alt="">
+            <h2 class="text-tLightred font-bold opacity-70">Reaction</h2>
           </div>
-          <div class="flex bg-Orangeyellow p-4 justify-between rounded-xl">
-            <div class="flex gap-2">
-              <img src="./assets/images/icon-memory.svg" alt="">
-              <h2 class="text-tOrangeyellow font-bold opacity-70">Memory</h2>
-            </div>
-            <p class="text-[#303B59]"><span class=" font-bold">92</span> / 100</p>
-          </div>
-          <div class="flex bg-Greenteal p-4 justify-between rounded-xl">
-            <div class="flex gap-2">
-              <img src="./assets/images/icon-verbal.svg" alt="">
-              <h2 class="text-tGreenteal font-bold opacity-70">Verbal</h2>
-            </div>
-            <p class="text-[#303B59]"><span class=" font-bold">61</span> / 100</p>
-          </div>
-          <div class="flex bg-Cobaltblue p-4 justify-between rounded-xl">
-            <div class="flex gap-2">
-              <img src="./assets/images/icon-visual.svg" alt="">
-              <h2 class="text-tCobaltblue font-bold opacity-70">Visual</h2>
-            </div>
-            <p class="text-[#303B59]"><span class=" font-bold">72</span> / 100</p>
-          </div>
-          
-
-
+          <p class="text-[#303B59]"><span class=" font-bold">80</span> / 100</p>
         </div>
-        <button class="bg-[#303B59] w-full py-4 text-white font-bold rounded-full mb-4">Continue</button>
-      </div>
-  
+        <div class="flex bg-Orangeyellow p-4 justify-between rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-memory.svg" alt="">
+            <h2 class="text-tOrangeyellow font-bold opacity-70">Memory</h2>
+          </div>
+          <p class="text-[#303B59]"><span class=" font-bold">92</span> / 100</p>
+        </div>
+        <div class="flex bg-Greenteal p-4 justify-between rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-verbal.svg" alt="">
+            <h2 class="text-tGreenteal font-bold opacity-70">Verbal</h2>
+          </div>
+          <p class="text-[#303B59]"><span class=" font-bold">61</span> / 100</p>
+        </div>
+        <div class="flex bg-Cobaltblue p-4 justify-between rounded-xl">
+          <div class="flex gap-2">
+            <img src="./assets/images/icon-visual.svg" alt="">
+            <h2 class="text-tCobaltblue font-bold opacity-70">Visual</h2>
+          </div>
+          <p class="text-[#303B59]"><span class=" font-bold">72</span> / 100</p>
+        </div>
+        
 
+
+      </div>
+      <button class="bg-[#303B59] w-full py-4 text-white font-bold rounded-full mb-4">Continue</button>
+    </div>
+
+
+
+
+</body>
 
 
 
@@ -91,5 +94,5 @@
   Continue -->
   
   
-</body>
+</div>
 </html>
